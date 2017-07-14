@@ -23,9 +23,13 @@ h4 {
 h5 {
   font-size: 20px;
 }
+
+h6 {
+  font-size: 45px;
+}
 p {
   font-size: 18px;
-  text-align: center;
+  text-align: left;
 }
 label {
   font-style: italic;
@@ -64,6 +68,11 @@ button {
 .message, #delivery {
   padding-top: 10px;
 }
+
+.verticle {
+ text-align: left;
+}
+
 #output, #pick-up, #delivery, #new-order-button {
   text-align: center;
   display: none;
