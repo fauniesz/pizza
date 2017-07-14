@@ -12,6 +12,8 @@ https://github.com/fauniesz/Pizza
 
 I use HTML, CSS, Bootstrap, JQuery, Objected Oriented JavaScript.
 
+Big thanks to my friend Eli Duke for helping me when I got super dooper stuck mid way through and was about to lose my entire mind!
+
 Specifications
 
 The user can enter what type or pizza they want, what size and the option to add another order. Once submitted they have the option for delivery.

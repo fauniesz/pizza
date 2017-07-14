@@ -23,7 +23,7 @@ Order.prototype.totalPrice = function(array){
   }
   return (totalPrice).toFixed(2);
 }
-
+//user logic
 $(document).ready(function(){
   $("#add-button").click(function(){
     $("#add-order").append('<div class="new-order">' +
@@ -73,7 +73,7 @@ $(document).ready(function(){
                             '</div>');
   });
 
-//user logic
+
   $("form#order").submit(function(event){
     event.preventDefault();
     var name = $("#name").val();

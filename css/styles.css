@@ -74,7 +74,7 @@ ul {
   text-align: center;
 }
 
-.message, #delivery {
+.message {
   padding-top: 10px;
 }
 
@@ -83,10 +83,18 @@ ul {
  font-weight: bold;
 }
 
-#output, #delivery, #new-order-button {
+#output {
   text-align: center;
   display: none;
 }
 #address {
+  display: none;
+}
+
+#delivery{
+  display: none;
+}
+
+#new-order-button {
   display: none;
 }
