@@ -8,7 +8,7 @@ Description
 
 This is a website for a pizza company where a user can choose one or more individual toppings (cheese, pepperoni, onions, pineapple and sausage) and a size to order a pizza and see the final cost.
 
-https://github.com/fauniesz/Pizza
+https://fauniesz.github.io/pizza/
 
 I use HTML, CSS, Bootstrap, JQuery, Objected Oriented JavaScript.
 
