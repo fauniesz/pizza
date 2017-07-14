@@ -27,15 +27,12 @@ h5 {
 
 h6 {
   font-size: 45px;
-}
-
-h6 {
-  text-align: left;
+  text-align: center;
 }
 
 p {
   font-size: 18px;
-  text-align: left;
+  text-align: center;
 }
 label {
   font-style: italic;
@@ -57,9 +54,7 @@ ul {
   height: 100%;
 }
 
-
 img {
-  border: 1px solid #1b384d;
   padding: 20px;
   box-shadow: 0 1px #1b384d;
   border-radius: 6px;
@@ -93,8 +88,13 @@ img {
 }
 
 .verticle {
- text-align: left;
+ text-align: center;
  font-weight: bold;
+}
+
+ul {
+  text-align: center;
+  list-style-type: none;
 }
 
 #output {
