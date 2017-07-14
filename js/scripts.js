@@ -73,7 +73,7 @@ $(document).ready(function(){
                             '</div>');
   });
 
-//user interface logic
+//user logic
   $("form#order").submit(function(event){
     event.preventDefault();
     var name = $("#name").val();
