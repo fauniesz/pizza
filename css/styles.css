@@ -42,7 +42,7 @@ button {
 }
 
 ul {
-  text-align: left;
+  text-align: center;
 }
 .jumbotron {
   font-size: 45px;
@@ -64,9 +64,7 @@ img {
   overflow: hidden;
   margin-top: 20px;
 }
-.container {
-  padding-bottom: 30px;
-}
+
 .column {
   border-radius: 20px;
   margin-top: 20px;
@@ -91,6 +89,8 @@ img {
  text-align: center;
  font-weight: bold;
 }
+
+
 
 ul {
   text-align: center;
