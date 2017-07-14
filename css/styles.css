@@ -27,6 +27,11 @@ h5 {
 h6 {
   font-size: 45px;
 }
+
+h6 {
+  text-align: left;
+}
+
 p {
   font-size: 18px;
   text-align: left;
@@ -36,6 +41,10 @@ label {
 }
 button {
   margin-top: 15px;
+}
+
+ul {
+  text-align: left;
 }
 .jumbotron {
   font-size: 45px;
@@ -71,15 +80,13 @@ button {
 
 .verticle {
  text-align: left;
+ font-weight: bold;
 }
 
-#output, #pick-up, #delivery, #new-order-button {
+#output, #delivery, #new-order-button {
   text-align: center;
   display: none;
 }
 #address {
   display: none;
-}
-#pick-up {
-  padding: 5px 0 10px;
 }

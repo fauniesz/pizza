@@ -17,8 +17,8 @@ Pizza.prototype.price = function(){
 
 Order.prototype.totalPrice = function(array){
   var totalPrice = 0;
-  for(var i = 0; i < array.length; i++){
-    totalPrice += this.pizzas[i].price();
+  for(var c = 0; c < array.length; c++){
+    totalPrice += this.pizzas[c].price();
   }
   return (totalPrice).toFixed(2);
 }
@@ -26,7 +26,7 @@ Order.prototype.totalPrice = function(array){
 $(document).ready(function(){
   $("#add-button").click(function(){
     $("#add-order").append('<div class="new-order">' +
-                              '<h4>Choose up to 3 toppings:</h4>' +
+                              '<h4>Please Choose your Toppings:</h4>' +
                               '<div class="form-group">' +
                                 '<label for="toppings"><em>Topping 1:</em></label>' +
                                 '<select class="form-control topping1">' +
@@ -105,8 +105,13 @@ $(document).ready(function(){
     var address = (street + ", " + city + ", " + state + ", " + zipcode).toUpperCase();
     $("#address").hide();
     $("#insert-address").text(address);
-    $("#delivery").show();
+    $("#delivery, #new-order-button").show();
   });
+
+  $("button#no-deliver").click(function(event){
+  $("#delivery-option").hide();
+  $("#new-order-button").show();
+});
 
   $("#new-order").click(function(event){
     $("#order")[0].reset();
