@@ -1,3 +1,4 @@
+//business logic
 function Pizza(topping1, topping2, topping3, size){
   this.topping1 = topping1;
   this.topping2 = topping2;
@@ -72,6 +73,7 @@ $(document).ready(function(){
                             '</div>');
   });
 
+//user interface logic
   $("form#order").submit(function(event){
     event.preventDefault();
     var name = $("#name").val();
